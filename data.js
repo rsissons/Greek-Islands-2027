@@ -212,15 +212,15 @@ const tripData = {
       title: "Villages and Beach Afternoon",
       stay: "Astra Suites",
       travel: "Hire a private driver/taxi for a half-day",
-      plan: ["Astra Suites → Pyrgos → Exo Gonia (Lunch at Metaxi Mas) → Red Beach → Catamaran Sunset Cruise"],
+      plan: ["Astra Suites → Pyrgos → Exo Gonia (Lunch at Metaxi Mas) → Perivolos Black Sand Beach → Catamaran Sunset Cruise"],
       stops: [
           {name: "Pyrgos", desc: "The highest village in Santorini. <strong>Explore this peaceful, less-touristy medieval settlement and climb to the top for 360-degree island views.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", lat: 36.3833, lng: 25.4500}, 
           {name: "Exo Gonia", desc: "A quiet, traditional village home to classic Cycladic churches. <strong>Sit down for an unforgettable, authentic lunch at the famous Metaxi Mas tavern.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Exo+Gonia+Santorini", lat: 36.3888, lng: 25.4616}, 
-          {name: "Red Beach", desc: "A completely unique beach surrounded by rust-red volcanic cliffs. <strong>Grab a drink by the water and snap photos of the dramatic landscape before your next stop.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Red+Beach+Santorini", lat: 36.3475, lng: 25.3946},
+          {name: "Perivolos Black Sand Beach", desc: "Santorini's most upscale stretch of black sand. <strong>Grab a plush cabana at a luxury beach club and enjoy a cocktail before your cruise.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Perivolos+Beach+Santorini", lat: 36.3396, lng: 25.4431},
           {name: "Vlychada Marina (Cruise Departure)", desc: "The southern port surrounded by dramatic pumice stone cliffs. <strong>Board your luxury catamaran for an unforgettable sunset cruise and BBQ dinner.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Vlychada+Marina+Santorini", lat: 36.3385, lng: 25.4335}
       ],
       dinner: {name: "BBQ Dinner onboard Catamaran", link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"},
-      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Red+Beach+Santorini/Vlychada+Marina+Santorini/"
+      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Perivolos+Beach+Santorini/Vlychada+Marina+Santorini/"
     },
     {
       day: 13,

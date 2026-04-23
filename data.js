@@ -82,7 +82,7 @@ const tripData = {
       day: 2,
       title: "Athenian Riviera Coastal Day",
       stay: "COCO-MAT Athens BC",
-      travel: "Taxi or Coastal Tram from Athens",
+      travel: "Taxi, Tram, or <a href='https://www.welcomepickups.com/athens/' target='_blank' style='color: var(--clr-light-blue); text-decoration: underline;'>Private Driver</a>",
       plan: ["Hotel → Lake Vouliagmeni (Thermal Springs) → Astir Beach → Coastal Sunset Drinks"],
       stops: [
           {name: "Lake Vouliagmeni", desc: "A stunning natural thermal spa lake surrounded by limestone caves. <strong>Spend the morning floating and relaxing in the healing waters.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Lake+Vouliagmeni+Athens", lat: 37.8078, lng: 23.7845}, 
@@ -95,7 +95,7 @@ const tripData = {
       day: 3,
       title: "Coastal Drive & Cape Sounion Sunset",
       stay: "COCO-MAT Athens BC",
-      travel: "Private Driver / Luxury Transfer",
+      travel: "<a href='https://www.welcomepickups.com/athens/' target='_blank' style='color: var(--clr-light-blue); text-decoration: underline;'>Private Driver / Luxury Transfer</a>",
       plan: ["COCO-MAT Athens BC → Flisvos Marina → Lake Vouliagmeni → Cape Sounion (Temple of Poseidon)"],
       stops: [
           {name: "Flisvos Marina", desc: "A mega-yacht marina in the upscale Paleo Faliro neighborhood. <strong>Grab a coffee and stroll along the promenade admiring the incredible luxury yachts.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Flisvos+Marina", lat: 37.9304, lng: 23.6841}, 
@@ -134,7 +134,7 @@ const tripData = {
       day: 6,
       title: "Driver Wine and Olive Oil Tour Day",
       stay: "Casa Delfino",
-      travel: "Private Driver Tour",
+      travel: "<a href='https://www.welcomepickups.com/chania/' target='_blank' style='color: var(--clr-light-blue); text-decoration: underline;'>Private Driver Tour</a>",
       plan: ["Olive oil tasting", "Winery visit", "Village lunch", "No lamb"],
       stops: [
           {name: "Chania wine region", desc: "Rolling hills dotted with ancient olive groves. <strong>Enjoy private wine tastings at boutique, family-run vineyards.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Chania+Crete+winery", lat: 35.4081, lng: 24.2001}, 
@@ -210,7 +210,7 @@ const tripData = {
       day: 12,
       title: "Villages and Beach Afternoon",
       stay: "Astra Suites",
-      travel: "Hire a private driver/taxi for a half-day",
+      travel: "Hire a <a href='https://www.welcomepickups.com/santorini/' target='_blank' style='color: var(--clr-light-blue); text-decoration: underline;'>private driver/taxi</a> for a half-day",
       plan: ["Astra Suites → Pyrgos → Exo Gonia (Lunch at Metaxi Mas) → Perivolos Black Sand Beach → Catamaran Sunset Cruise"],
       stops: [
           {name: "Pyrgos", desc: "The highest village in Santorini. <strong>Explore this peaceful, less-touristy medieval settlement and climb to the top for 360-degree island views.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", lat: 36.3833, lng: 25.4500}, 

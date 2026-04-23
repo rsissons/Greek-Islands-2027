@@ -1,6 +1,28 @@
 // app.js
+
+// Theme Logic (run immediately to prevent flash)
+const savedTheme = localStorage.getItem('greekIslandsTheme') || 'aegean';
+if (savedTheme !== 'aegean') {
+    document.documentElement.setAttribute('data-theme', savedTheme);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     
+    // Theme Switcher Initialization
+    const themeSwitcher = document.getElementById('themeSwitcher');
+    if (themeSwitcher) {
+        themeSwitcher.value = savedTheme;
+        themeSwitcher.addEventListener('change', (e) => {
+            const theme = e.target.value;
+            if (theme === 'aegean') {
+                document.documentElement.removeAttribute('data-theme');
+            } else {
+                document.documentElement.setAttribute('data-theme', theme);
+            }
+            localStorage.setItem('greekIslandsTheme', theme);
+        });
+    }
+
     // 1. Render Summary Cards
     const summaryContainer = document.getElementById("summary-container");
     if(tripData.theme && summaryContainer) {

@@ -96,16 +96,23 @@ document.addEventListener("DOMContentLoaded", () => {
                                 
                                 const bounds = L.latLngBounds();
                                 let hasMarkers = false;
+                                const latlngs = [];
                                 
-                                day.stops.forEach(stop => {
+                                day.stops.forEach((stop, index) => {
                                     if(stop.lat && stop.lng) {
-                                        L.marker([stop.lat, stop.lng]).addTo(map).bindPopup(`<strong>${stop.name}</strong>`);
+                                        // Drop a pin with a numbered label for the route order
+                                        L.marker([stop.lat, stop.lng]).addTo(map).bindPopup(`<strong>${index + 1}. ${stop.name}</strong>`);
                                         bounds.extend([stop.lat, stop.lng]);
+                                        latlngs.push([stop.lat, stop.lng]);
                                         hasMarkers = true;
                                     }
                                 });
                                 
                                 if(hasMarkers) {
+                                    // Draw a line connecting the stops to show the route order
+                                    if(latlngs.length > 1) {
+                                        L.polyline(latlngs, {color: 'var(--clr-accent)', weight: 3, dashArray: '5, 10'}).addTo(map);
+                                    }
                                     map.fitBounds(bounds, {padding: [30, 30], maxZoom: 15});
                                 }
                             }, 50);

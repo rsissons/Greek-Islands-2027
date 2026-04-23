@@ -214,14 +214,14 @@ const tripData = {
       title: "Villages and Real Santorini",
       stay: "Astra Suites",
       travel: "Hire a private driver/taxi for a half-day or use KTEL buses via Fira",
-      plan: ["Astra Suites → Pyrgos → Exo Gonia → Metaxi Mas → optional Akrotiri → Astra Suites"],
+      plan: ["Astra Suites → Exo Gonia → Pyrgos → Metaxi Mas → optional Akrotiri → Astra Suites"],
       stops: [
-          {name: "Pyrgos", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", image: "assets/thumbs/santorini_village.png", lat: 36.3833, lng: 25.4500}, 
           {name: "Exo Gonia", link: "https://www.google.com/maps/search/?api=1&query=Exo+Gonia+Santorini", image: "assets/thumbs/santorini_village.png", lat: 36.3888, lng: 25.4616}, 
+          {name: "Pyrgos", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", image: "assets/thumbs/santorini_village.png", lat: 36.3833, lng: 25.4500}, 
           {name: "Akrotiri Archaeological Site", link: "https://www.google.com/maps/search/?api=1&query=Akrotiri+Archaeological+Site", image: "assets/thumbs/beach_nature.png", lat: 36.3514, lng: 25.4036}
       ],
       dinner: {name: "Metaxi Mas", link: "https://www.google.com/maps/search/?api=1&query=Metaxi+Mas+Exo+Gonia+Santorini"},
-      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Akrotiri+Archaeological+Site/Astra+Suites+Santorini/"
+      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Exo+Gonia+Santorini/Pyrgos+Kallistis/Metaxi+Mas+Santorini/Akrotiri+Archaeological+Site/Astra+Suites+Santorini/"
     },
     {
       day: 14,

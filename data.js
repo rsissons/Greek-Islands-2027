@@ -134,7 +134,7 @@ const tripData = {
       day: 6,
       title: "Driver Wine and Olive Oil Tour Day",
       stay: "Casa Delfino",
-      travel: "<a href='https://www.welcomepickups.com/chania/' target='_blank' style='color: var(--clr-light-blue); text-decoration: underline;'>Private Driver Tour</a>",
+      travel: "<a href='https://www.welcomepickups.com/crete/' target='_blank' style='color: var(--clr-light-blue); text-decoration: underline;'>Private Driver Tour</a>",
       plan: ["Olive oil tasting", "Winery visit", "Village lunch", "No lamb"],
       stops: [
           {name: "Chania wine region", desc: "Rolling hills dotted with ancient olive groves. <strong>Enjoy private wine tastings at boutique, family-run vineyards.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Chania+Crete+winery", lat: 35.4081, lng: 24.2001}, 

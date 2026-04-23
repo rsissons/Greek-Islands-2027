@@ -34,9 +34,12 @@ document.addEventListener("DOMContentLoaded", () => {
             const stopsList = day.stops.length > 0 ? `<div class="detail-row"><strong>Stops:</strong></div>
                 <div class="detail-list" style="list-style: none; margin-left: 0;">
                     ${day.stops.map(s => `
-                        <div class="stop-item">
-                            ${s.image ? `<img src="${s.image}" class="stop-thumb" alt="${s.name}">` : ''}
-                            <a href="${s.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline; font-weight: 500;">${s.name}</a>
+                        <div class="stop-item" style="margin-bottom: 8px;">
+                            <span style="font-weight: 500;">${s.name}</span>
+                            <span style="margin-left: 8px; font-size: 0.9em;">
+                                (<a href="${s.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">Map</a> | 
+                                 <a href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(s.name + ' Greece')}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">Photos</a>)
+                            </span>
                         </div>
                     `).join("")}
                 </div>

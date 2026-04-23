@@ -62,7 +62,7 @@ const tripData = {
       travel: "Airport to hotel",
       plan: ["Arrive in Athens", "Check in and keep the day light", "Walk Plaka and Anafiotika", "Early dinner and early night"],
       stops: [{name: "Plaka", link: "https://www.google.com/maps/search/?api=1&query=Plaka+Athens"}, {name: "Anafiotika", link: "https://www.google.com/maps/search/?api=1&query=Anafiotika+Athens"}],
-      dinner: "Karamanlidika by Fanis (Skip lamb dishes)",
+      dinner: {name: "Karamanlidika by Fanis (Skip lamb dishes)", link: "https://www.google.com/maps/search/?api=1&query=Karamanlidika+by+Fanis+Athens"},
       map: "https://www.google.com/maps/search/?api=1&query=Athens+International+Airport+to+COCO-MAT+Athens+BC"
     },
     {
@@ -102,7 +102,7 @@ const tripData = {
       travel: "Fly Athens to Chania",
       plan: ["Fly Athens to Chania", "Check in", "Sunset walk in the Venetian Harbor"],
       stops: [{name: "Venetian Harbor Chania", link: "https://www.google.com/maps/search/?api=1&query=Old+Venetian+Harbor+Chania"}],
-      dinner: "Tamam Restaurant",
+      dinner: {name: "Tamam Restaurant", link: "https://www.google.com/maps/search/?api=1&query=Tamam+Restaurant+Chania"},
       map: "https://www.google.com/maps/search/?api=1&query=COCO-MAT+Athens+BC+to+Athens+International+Airport"
     },
     {
@@ -162,7 +162,7 @@ const tripData = {
       travel: "Fly or Ferry Chania to Santorini",
       plan: ["Travel Chania to Santorini by best available flight or ferry", "Check in and settle into Imerovigli", "Walk the caldera path toward Fira"],
       stops: [{name: "Imerovigli", link: "https://www.google.com/maps/search/?api=1&query=Imerovigli+Santorini"}, {name: "Fira walk", link: "https://www.google.com/maps/search/?api=1&query=Fira+Santorini"}],
-      dinner: "Anogi",
+      dinner: {name: "Anogi", link: "https://www.google.com/maps/search/?api=1&query=Anogi+Restaurant+Imerovigli+Santorini"},
       map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Fira+Santorini/"
     },
     {
@@ -172,7 +172,7 @@ const tripData = {
       travel: "Walking",
       plan: ["Astra Suites → Skaros Rock viewpoint → hotel downtime → sunset dinner"],
       stops: [{name: "Skaros Rock", link: "https://www.google.com/maps/search/?api=1&query=Skaros+Rock+Santorini"}],
-      dinner: "Sunset dinner at The Athenian House",
+      dinner: {name: "Sunset dinner at The Athenian House", link: "https://www.google.com/maps/search/?api=1&query=The+Athenian+House+Imerovigli+Santorini"},
       map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Skaros+Rock+Santorini/Astra+Suites+Santorini/"
     },
     {
@@ -182,7 +182,7 @@ const tripData = {
       travel: "Car/Bus",
       plan: ["Astra Suites → Pyrgos → Exo Gonia → Metaxi Mas → optional Akrotiri → Astra Suites"],
       stops: [{name: "Pyrgos", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini"}, {name: "Exo Gonia", link: "https://www.google.com/maps/search/?api=1&query=Exo+Gonia+Santorini"}, {name: "Akrotiri Archaeological Site", link: "https://www.google.com/maps/search/?api=1&query=Akrotiri+Archaeological+Site"}],
-      dinner: "Metaxi Mas",
+      dinner: {name: "Metaxi Mas", link: "https://www.google.com/maps/search/?api=1&query=Metaxi+Mas+Exo+Gonia+Santorini"},
       map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Akrotiri+Archaeological+Site/Astra+Suites+Santorini/"
     },
     {

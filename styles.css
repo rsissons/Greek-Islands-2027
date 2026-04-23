@@ -630,6 +630,19 @@ footer {
     .nav-links {
         display: none; /* simple hidden for mobile, can be expanded with JS */
     }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: var(--clr-header-bg);
+        padding: var(--space-md);
+        box-shadow: var(--shadow-soft);
+        gap: var(--space-md);
+    }
     
     .hamburger {
         display: flex;

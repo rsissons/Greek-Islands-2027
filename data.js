@@ -61,7 +61,7 @@ const tripData = {
     {
       name: "Gramvousa & Balos Lagoon Boat Cruise",
       desc: "Full-day epic boat cruise departing from Kissamos Port to the famous turquoise waters of Balos Lagoon.",
-      link: "https://www.getyourguide.com/chania-l413/balos-beach-and-lagoon-l3930/"
+      link: "https://www.viator.com/searchResults/all?text=Balos%20Lagoon%20Boat%20Cruise%20from%20Chania"
     }
   ],
   days: [
@@ -166,7 +166,7 @@ const tripData = {
           {name: "Gramvousa Island", desc: "An uninhabited island featuring a striking Venetian fortress. <strong>Hike up to the castle ruins or swim near the famous shipwreck.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Gramvousa+Island+Crete", lat: 35.6083, lng: 23.5786},
           {name: "Balos Lagoon", desc: "One of Greece's most famous beaches. <strong>Wade in the spectacular, warm turquoise water and relax on the pink-tinged sand.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Balos+Lagoon+Crete", lat: 35.5815, lng: 23.5908}
       ],
-      tour: {name: "Gramvousa & Balos Lagoon Boat Cruise", link: "https://www.getyourguide.com/chania-l413/balos-beach-and-lagoon-l3930/"},
+      tour: {name: "Gramvousa & Balos Lagoon Boat Cruise", link: "https://www.viator.com/searchResults/all?text=Balos%20Lagoon%20Boat%20Cruise%20from%20Chania"},
       dinner: "Flexible dinner in Chania Harbor after the full-day cruise",
       map: "https://www.google.com/maps/dir/Casa+Delfino+Hotel+%26+Spa/Kissamos+Port/"
     },

@@ -31,7 +31,17 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // Build lists
             const planList = day.plan.map(p => `<li>${p}</li>`).join("");
-            const stopsList = day.stops.length > 0 ? `<div class="detail-row"><strong>Stops:</strong></div><ul class="detail-list">${day.stops.map(s => `<li>${typeof s === 'object' ? `<a href="${s.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">${s.name}</a>` : s}</li>`).join("")}</ul>` : "";
+            const stopsList = day.stops.length > 0 ? `<div class="detail-row"><strong>Stops:</strong></div>
+                <div class="detail-list" style="list-style: none; margin-left: 0;">
+                    ${day.stops.map(s => `
+                        <div class="stop-item">
+                            ${s.image ? `<img src="${s.image}" class="stop-thumb" alt="${s.name}">` : ''}
+                            <a href="${s.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline; font-weight: 500;">${s.name}</a>
+                        </div>
+                    `).join("")}
+                </div>
+                <div id="map-day-${day.day}" class="day-map"></div>
+            ` : "";
             
             item.innerHTML = `
                 <div class="timeline-dot"></div>
@@ -50,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         ${day.dinner !== "None" ? `<div class="detail-row"><strong>Dinner:</strong> ${typeof day.dinner === 'object' ? `<a href="${day.dinner.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">${day.dinner.name}</a>` : day.dinner}</div>` : ''}
                         <a href="${day.map}" target="_blank" class="map-link">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg>
-                            View on Google Maps
+                            Get Daily Directions on Google Maps
                         </a>
                     </div>
                 </div>
@@ -58,8 +68,10 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // Add click event for expanding
             const content = item.querySelector('.timeline-content');
-            content.addEventListener('click', () => {
-                // Toggle active class
+            content.addEventListener('click', (e) => {
+                // Ignore clicks on links
+                if(e.target.tagName.toLowerCase() === 'a') return;
+
                 const isActive = item.classList.contains('active');
                 
                 // Optional: Close others
@@ -67,6 +79,35 @@ document.addEventListener("DOMContentLoaded", () => {
                 
                 if(!isActive) {
                     item.classList.add('active');
+                    
+                    // Initialize Leaflet map if we have stops
+                    if(day.stops && day.stops.length > 0) {
+                        const mapEl = document.getElementById(`map-day-${day.day}`);
+                        if(mapEl && !mapEl.classList.contains('leaflet-container')) {
+                            // Small timeout to ensure the container is visible and has height
+                            setTimeout(() => {
+                                const map = L.map(`map-day-${day.day}`);
+                                L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                                    attribution: '&copy; OpenStreetMap contributors, &copy; CARTO'
+                                }).addTo(map);
+                                
+                                const bounds = L.latLngBounds();
+                                let hasMarkers = false;
+                                
+                                day.stops.forEach(stop => {
+                                    if(stop.lat && stop.lng) {
+                                        L.marker([stop.lat, stop.lng]).addTo(map).bindPopup(`<strong>${stop.name}</strong>`);
+                                        bounds.extend([stop.lat, stop.lng]);
+                                        hasMarkers = true;
+                                    }
+                                });
+                                
+                                if(hasMarkers) {
+                                    map.fitBounds(bounds, {padding: [30, 30], maxZoom: 15});
+                                }
+                            }, 50);
+                        }
+                    }
                 }
             });
             

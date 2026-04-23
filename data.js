@@ -56,7 +56,7 @@ const tripData = {
     {
       name: "Santorini Luxury Catamaran Sunset Cruise",
       desc: "Small-group catamaran sailing with caldera views, swimming, and an onboard BBQ dinner.",
-      link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"
+      link: "https://www.getyourguide.com/santorini-l753/cruises-boat-tours-tc48/?sort=rating"
     },
     {
       name: "Gramvousa & Balos Lagoon Boat Cruise",
@@ -219,7 +219,7 @@ const tripData = {
           {name: "Perivolos Black Sand Beach", desc: "Santorini's most upscale stretch of black sand. <strong>Grab a plush cabana at a luxury beach club and enjoy a cocktail before your cruise.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Perivolos+Beach+Santorini", lat: 36.3396, lng: 25.4431},
           {name: "Vlychada Marina (Cruise Departure)", desc: "The southern port surrounded by dramatic pumice stone cliffs. <strong>Board your luxury catamaran for an unforgettable sunset cruise and BBQ dinner.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Vlychada+Marina+Santorini", lat: 36.3385, lng: 25.4335}
       ],
-      dinner: {name: "BBQ Dinner onboard Catamaran", link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"},
+      dinner: {name: "BBQ Dinner onboard Catamaran", link: "https://www.getyourguide.com/santorini-l753/cruises-boat-tours-tc48/?sort=rating"},
       map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Perivolos+Beach+Santorini/Vlychada+Marina+Santorini/"
     },
     {

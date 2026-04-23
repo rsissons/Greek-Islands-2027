@@ -76,7 +76,10 @@ const tripData = {
           {name: "Anafiotika", desc: "A tiny, scenic village oasis clinging to the Acropolis hill. <strong>Get lost in the maze of whitewashed, Cycladic-style pathways.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Anafiotika+Athens", lat: 37.9723, lng: 23.7275}
       ],
       dinner: {name: "Karamanlidika by Fanis (Skip lamb dishes)", link: "https://www.google.com/maps/search/?api=1&query=Karamanlidika+by+Fanis+Athens"},
-      map: "https://www.google.com/maps/search/?api=1&query=Athens+International+Airport+to+COCO-MAT+Athens+BC"
+      maps: [
+          {name: "Airport to Hotel Directions", link: "https://www.google.com/maps/dir/Athens+International+Airport/COCO-MAT+Athens+BC/"},
+          {name: "Walking Directions (Plaka & Anafiotika)", link: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Plaka+Athens/Anafiotika+Athens/"}
+      ]
     },
     {
       day: 2,
@@ -115,7 +118,11 @@ const tripData = {
           {name: "Venetian Harbor Chania", desc: "A beautiful 14th-century harbor. <strong>Take a sunset stroll along the water and admire the colorful Venetian architecture.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Old+Venetian+Harbor+Chania", lat: 35.5172, lng: 24.0176}
       ],
       dinner: {name: "Tamam Restaurant", link: "https://www.google.com/maps/search/?api=1&query=Tamam+Restaurant+Chania"},
-      map: "https://www.google.com/maps/search/?api=1&query=COCO-MAT+Athens+BC+to+Athens+International+Airport"
+      maps: [
+          {name: "Athens Hotel to Airport", link: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Athens+International+Airport/"},
+          {name: "Chania Airport to Casa Delfino", link: "https://www.google.com/maps/dir/Chania+International+Airport/Casa+Delfino+Hotel+Chania/"},
+          {name: "Venetian Harbor Walking Route", link: "https://www.google.com/maps/dir/Casa+Delfino+Hotel+Chania/Old+Venetian+Harbor+Chania/"}
+      ]
     },
     {
       day: 5,
@@ -193,7 +200,10 @@ const tripData = {
           {name: "Fira walk", desc: "The spectacular cliffside path connecting the villages. <strong>Take a breathtaking, highly photogenic walk along the edge of the volcano.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Fira+Santorini", lat: 36.4216, lng: 25.4290}
       ],
       dinner: {name: "Anogi", link: "https://www.google.com/maps/search/?api=1&query=Anogi+Restaurant+Imerovigli+Santorini"},
-      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Fira+Santorini/"
+      maps: [
+          {name: "Port/Airport to Astra Suites", link: "https://www.google.com/maps/dir/Santorini+Airport/Astra+Suites+Santorini/"},
+          {name: "Walking Directions (Imerovigli to Fira)", link: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Fira+Santorini/"}
+      ]
     },
     {
       day: 11,

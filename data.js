@@ -57,6 +57,11 @@ const tripData = {
       name: "Santorini Luxury Catamaran Sunset Cruise",
       desc: "Small-group catamaran sailing with caldera views, swimming, and an onboard BBQ dinner.",
       link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"
+    },
+    {
+      name: "Gramvousa & Balos Lagoon Boat Cruise",
+      desc: "Full-day epic boat cruise departing from Kissamos Port to the famous turquoise waters of Balos Lagoon.",
+      link: "https://www.getyourguide.com/chania-l413/from-chania-gramvousa-island-and-balos-bay-full-day-tour-t353724/"
     }
   ],
   days: [
@@ -75,17 +80,16 @@ const tripData = {
     },
     {
       day: 2,
-      title: "Acropolis and Historic Center",
+      title: "Athenian Riviera Coastal Day",
       stay: "COCO-MAT Athens BC",
-      travel: "Walking / Transit",
-      plan: ["Hotel → Acropolis → Acropolis Museum → Monastiraki → rooftop drinks"],
+      travel: "Taxi or Coastal Tram from Athens",
+      plan: ["Hotel → Lake Vouliagmeni (Thermal Springs) → Astir Beach → Coastal Sunset Drinks"],
       stops: [
-          {name: "Acropolis", link: "https://www.google.com/maps/search/?api=1&query=Acropolis+of+Athens", lat: 37.9715, lng: 23.7257}, 
-          {name: "Acropolis Museum", link: "https://www.google.com/maps/search/?api=1&query=Acropolis+Museum", lat: 37.9685, lng: 23.7285}, 
-          {name: "Monastiraki Square", link: "https://www.google.com/maps/search/?api=1&query=Monastiraki+Square+Athens", lat: 37.9761, lng: 23.7261}
+          {name: "Lake Vouliagmeni", link: "https://www.google.com/maps/search/?api=1&query=Lake+Vouliagmeni+Athens", lat: 37.8078, lng: 23.7845}, 
+          {name: "Astir Beach", link: "https://www.google.com/maps/search/?api=1&query=Astir+Beach+Athens", lat: 37.8038, lng: 23.7744}
       ],
-      dinner: "Return to Karamanlidika or another meat/seafood spot nearby",
-      map: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Acropolis+of+Athens/Acropolis+Museum/Monastiraki+Square/"
+      dinner: "Coastal seafood dinner in Vouliagmeni before heading back",
+      map: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Lake+Vouliagmeni/Astir+Beach/"
     },
     {
       day: 3,
@@ -154,16 +158,17 @@ const tripData = {
     },
     {
       day: 8,
-      title: "Culture Day in Chania",
+      title: "Balos Lagoon & Gramvousa Boat Cruise",
       stay: "Casa Delfino",
-      travel: "Walking",
-      plan: ["Casa Delfino → Archaeological Museum of Chania → harbor café → shopping lanes → sunset walk"],
+      travel: "KTEL Bus to Kissamos Port, then Boat Cruise",
+      plan: ["Casa Delfino → Kissamos Port → Gramvousa Island → Balos Lagoon → Return to Chania"],
       stops: [
-          {name: "Archaeological Museum of Chania", link: "https://www.google.com/maps/search/?api=1&query=Archaeological+Museum+of+Chania", lat: 35.5186, lng: 24.0253}, 
-          {name: "Harbor cafés", link: "https://www.google.com/maps/search/?api=1&query=Old+Venetian+Harbor+Chania+cafes", lat: 35.5173, lng: 24.0180}
+          {name: "Kissamos Port", link: "https://www.google.com/maps/search/?api=1&query=Kissamos+Port+Crete", lat: 35.5186, lng: 23.6366}, 
+          {name: "Gramvousa Island", link: "https://www.google.com/maps/search/?api=1&query=Gramvousa+Island+Crete", lat: 35.6083, lng: 23.5786},
+          {name: "Balos Lagoon", link: "https://www.google.com/maps/search/?api=1&query=Balos+Lagoon+Crete", lat: 35.5815, lng: 23.5908}
       ],
-      dinner: "Flexible seafood or favorite repeat dinner",
-      map: "https://www.google.com/maps/dir/Casa+Delfino+Hotel+%26+Spa/Archaeological+Museum+of+Chania/Old+Venetian+Harbor+Chania/"
+      dinner: "Flexible dinner in Chania Harbor after the full-day cruise",
+      map: "https://www.google.com/maps/dir/Casa+Delfino+Hotel+%26+Spa/Kissamos+Port/"
     },
     {
       day: 9,
@@ -204,18 +209,18 @@ const tripData = {
     },
     {
       day: 12,
-      title: "Villages and Real Santorini",
+      title: "Villages and Beach Afternoon",
       stay: "Astra Suites",
-      travel: "Hire a private driver/taxi for a half-day or use KTEL buses via Fira",
-      plan: ["Astra Suites → Pyrgos → Exo Gonia (Lunch at Metaxi Mas) → Akrotiri → Catamaran Sunset Cruise"],
+      travel: "Hire a private driver/taxi for a half-day",
+      plan: ["Astra Suites → Pyrgos → Exo Gonia (Lunch at Metaxi Mas) → Red Beach → Catamaran Sunset Cruise"],
       stops: [
           {name: "Pyrgos", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", lat: 36.3833, lng: 25.4500}, 
           {name: "Exo Gonia", link: "https://www.google.com/maps/search/?api=1&query=Exo+Gonia+Santorini", lat: 36.3888, lng: 25.4616}, 
-          {name: "Akrotiri Archaeological Site", link: "https://www.google.com/maps/search/?api=1&query=Akrotiri+Archaeological+Site", lat: 36.3514, lng: 25.4036},
+          {name: "Red Beach", link: "https://www.google.com/maps/search/?api=1&query=Red+Beach+Santorini", lat: 36.3475, lng: 25.3946},
           {name: "Vlychada Marina (Cruise Departure)", link: "https://www.google.com/maps/search/?api=1&query=Vlychada+Marina+Santorini", lat: 36.3385, lng: 25.4335}
       ],
       dinner: {name: "BBQ Dinner onboard Catamaran", link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"},
-      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Akrotiri+Archaeological+Site/Vlychada+Marina+Santorini/"
+      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Red+Beach+Santorini/Vlychada+Marina+Santorini/"
     },
     {
       day: 13,

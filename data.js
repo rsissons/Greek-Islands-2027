@@ -93,18 +93,17 @@ const tripData = {
     },
     {
       day: 3,
-      title: "Markets and Neighborhoods",
+      title: "Coastal Drive & Cape Sounion Sunset",
       stay: "COCO-MAT Athens BC",
-      travel: "Walking / Transit",
-      plan: ["Hotel → Athens Central Market → Evripidou Street → Syntagma → National Garden"],
+      travel: "Private Driver / Luxury Transfer",
+      plan: ["COCO-MAT Athens BC → Flisvos Marina → Lake Vouliagmeni → Cape Sounion (Temple of Poseidon)"],
       stops: [
-          {name: "Athens Central Market", desc: "The vibrant Varvakios Agora. <strong>Walk through the bustling meat and fish halls to experience authentic local energy.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Athens+Central+Market", lat: 37.9814, lng: 23.7275}, 
-          {name: "Evripidou Street", desc: "Famous for its traditional Greek delicatessens. <strong>Stroll past aromatic spice shops and pick up some dried herbs or local treats.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Evripidou+Street+Athens", lat: 37.9806, lng: 23.7264}, 
-          {name: "Syntagma Square", desc: "The central square of Athens. <strong>Catch the famous changing of the Evzone guard in front of the Greek Parliament.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Syntagma+Square+Athens", lat: 37.9753, lng: 23.7345}, 
-          {name: "National Garden", desc: "A massive botanical park in the heart of the city. <strong>Take a peaceful, shaded walk away from the concrete and crowds.</strong>", link: "https://www.google.com/maps/search/?api=1&query=National+Garden+Athens", lat: 37.9732, lng: 23.7369}
+          {name: "Flisvos Marina", desc: "A mega-yacht marina in the upscale Paleo Faliro neighborhood. <strong>Grab a coffee and stroll along the promenade admiring the incredible luxury yachts.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Flisvos+Marina", lat: 37.9304, lng: 23.6841}, 
+          {name: "Lake Vouliagmeni", desc: "A spectacular hidden lake with therapeutic thermal waters surrounded by limestone caves. <strong>Stop here for a quick photo or a mineral bath.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Lake+Vouliagmeni", lat: 37.8078, lng: 23.7860}, 
+          {name: "Temple of Poseidon (Cape Sounion)", desc: "Perched dramatically on the very edge of the peninsula. <strong>Watch one of the most famous sunsets in Greece over the Aegean Sea.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Temple+of+Poseidon+Sounion", lat: 37.6501, lng: 24.0245}
       ],
-      dinner: "Free night or repeat favorite Athens restaurant",
-      map: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Athens+Central+Market/Evripidou+Street+Athens/Syntagma+Square/National+Garden+Athens/"
+      dinner: {name: "Elias Fish Tavern (Cape Sounion)", link: "https://www.google.com/maps/search/?api=1&query=Elias+Fish+Tavern+Sounion"},
+      map: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Flisvos+Marina/Lake+Vouliagmeni/Temple+of+Poseidon/"
     },
     {
       day: 4,

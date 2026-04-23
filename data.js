@@ -72,8 +72,8 @@ const tripData = {
       travel: "Airport to hotel via Athens Metro Line 3 or pre-booked taxi",
       plan: ["Arrive in Athens", "Check in and keep the day light", "Walk Plaka and Anafiotika", "Early dinner and early night"],
       stops: [
-          {name: "Plaka", desc: "The oldest and most picturesque neighborhood in Athens, known for narrow streets, neoclassical architecture, and local shops.", link: "https://www.google.com/maps/search/?api=1&query=Plaka+Athens", lat: 37.9729, lng: 23.7281}, 
-          {name: "Anafiotika", desc: "A tiny, scenic village oasis clinging to the Acropolis hill, built in the style of Cycladic island architecture.", link: "https://www.google.com/maps/search/?api=1&query=Anafiotika+Athens", lat: 37.9723, lng: 23.7275}
+          {name: "Plaka", desc: "The oldest and most picturesque neighborhood in Athens. <strong>Wander the historic, narrow streets and browse the local artisan shops.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Plaka+Athens", lat: 37.9729, lng: 23.7281}, 
+          {name: "Anafiotika", desc: "A tiny, scenic village oasis clinging to the Acropolis hill. <strong>Get lost in the maze of whitewashed, Cycladic-style pathways.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Anafiotika+Athens", lat: 37.9723, lng: 23.7275}
       ],
       dinner: {name: "Karamanlidika by Fanis (Skip lamb dishes)", link: "https://www.google.com/maps/search/?api=1&query=Karamanlidika+by+Fanis+Athens"},
       map: "https://www.google.com/maps/search/?api=1&query=Athens+International+Airport+to+COCO-MAT+Athens+BC"
@@ -85,8 +85,8 @@ const tripData = {
       travel: "Taxi or Coastal Tram from Athens",
       plan: ["Hotel → Lake Vouliagmeni (Thermal Springs) → Astir Beach → Coastal Sunset Drinks"],
       stops: [
-          {name: "Lake Vouliagmeni", desc: "A stunning natural thermal spa lake surrounded by limestone caves, perfect for a relaxing float.", link: "https://www.google.com/maps/search/?api=1&query=Lake+Vouliagmeni+Athens", lat: 37.8078, lng: 23.7845}, 
-          {name: "Astir Beach", desc: "A luxury beach club on the Athenian Riviera offering sunbeds, crystal clear water, and upscale dining.", link: "https://www.google.com/maps/search/?api=1&query=Astir+Beach+Athens", lat: 37.8038, lng: 23.7744}
+          {name: "Lake Vouliagmeni", desc: "A stunning natural thermal spa lake surrounded by limestone caves. <strong>Spend the morning floating and relaxing in the healing waters.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Lake+Vouliagmeni+Athens", lat: 37.8078, lng: 23.7845}, 
+          {name: "Astir Beach", desc: "A luxury beach club on the Athenian Riviera. <strong>Grab a sunbed, enjoy the crystal-clear water, and stay for coastal sunset drinks.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Astir+Beach+Athens", lat: 37.8038, lng: 23.7744}
       ],
       dinner: "Coastal seafood dinner in Vouliagmeni before heading back",
       map: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Lake+Vouliagmeni/Astir+Beach/"
@@ -98,10 +98,10 @@ const tripData = {
       travel: "Walking / Transit",
       plan: ["Hotel → Athens Central Market → Evripidou Street → Syntagma → National Garden"],
       stops: [
-          {name: "Athens Central Market", desc: "The vibrant Varvakios Agora, the city's largest meat and fish market bustling with local energy.", link: "https://www.google.com/maps/search/?api=1&query=Athens+Central+Market", lat: 37.9814, lng: 23.7275}, 
-          {name: "Evripidou Street", desc: "Famous for its aromatic spice shops, dried herbs, and traditional Greek delicatessens.", link: "https://www.google.com/maps/search/?api=1&query=Evripidou+Street+Athens", lat: 37.9806, lng: 23.7264}, 
-          {name: "Syntagma Square", desc: "The central square of Athens, home to the Greek Parliament and the famous changing of the guard.", link: "https://www.google.com/maps/search/?api=1&query=Syntagma+Square+Athens", lat: 37.9753, lng: 23.7345}, 
-          {name: "National Garden", desc: "A massive, peaceful botanical park offering a shaded escape right in the heart of the city.", link: "https://www.google.com/maps/search/?api=1&query=National+Garden+Athens", lat: 37.9732, lng: 23.7369}
+          {name: "Athens Central Market", desc: "The vibrant Varvakios Agora. <strong>Walk through the bustling meat and fish halls to experience authentic local energy.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Athens+Central+Market", lat: 37.9814, lng: 23.7275}, 
+          {name: "Evripidou Street", desc: "Famous for its traditional Greek delicatessens. <strong>Stroll past aromatic spice shops and pick up some dried herbs or local treats.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Evripidou+Street+Athens", lat: 37.9806, lng: 23.7264}, 
+          {name: "Syntagma Square", desc: "The central square of Athens. <strong>Catch the famous changing of the Evzone guard in front of the Greek Parliament.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Syntagma+Square+Athens", lat: 37.9753, lng: 23.7345}, 
+          {name: "National Garden", desc: "A massive botanical park in the heart of the city. <strong>Take a peaceful, shaded walk away from the concrete and crowds.</strong>", link: "https://www.google.com/maps/search/?api=1&query=National+Garden+Athens", lat: 37.9732, lng: 23.7369}
       ],
       dinner: "Free night or repeat favorite Athens restaurant",
       map: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Athens+Central+Market/Evripidou+Street+Athens/Syntagma+Square/National+Garden+Athens/"
@@ -113,7 +113,7 @@ const tripData = {
       travel: "Fly Athens to Chania. Chania Airport to hotel via KTEL bus or taxi",
       plan: ["Fly Athens to Chania", "Check in", "Sunset walk in the Venetian Harbor"],
       stops: [
-          {name: "Venetian Harbor Chania", desc: "A beautiful 14th-century harbor lined with colorful Venetian buildings and waterfront cafes.", link: "https://www.google.com/maps/search/?api=1&query=Old+Venetian+Harbor+Chania", lat: 35.5172, lng: 24.0176}
+          {name: "Venetian Harbor Chania", desc: "A beautiful 14th-century harbor. <strong>Take a sunset stroll along the water and admire the colorful Venetian architecture.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Old+Venetian+Harbor+Chania", lat: 35.5172, lng: 24.0176}
       ],
       dinner: {name: "Tamam Restaurant", link: "https://www.google.com/maps/search/?api=1&query=Tamam+Restaurant+Chania"},
       map: "https://www.google.com/maps/search/?api=1&query=COCO-MAT+Athens+BC+to+Athens+International+Airport"
@@ -125,8 +125,8 @@ const tripData = {
       travel: "Walking",
       plan: ["Casa Delfino → Venetian Harbor → Lighthouse walk → Old Town lanes → harbor drinks"],
       stops: [
-          {name: "Lighthouse area", desc: "An iconic Egyptian-style lighthouse offering panoramic views of the sea and the Old Town.", link: "https://www.google.com/maps/search/?api=1&query=Chania+Lighthouse", lat: 35.5190, lng: 24.0172}, 
-          {name: "Old Town Chania", desc: "A maze of historic, narrow alleyways packed with artisan shops, jasmine, and local tavernas.", link: "https://www.google.com/maps/search/?api=1&query=Old+Town+Chania", lat: 35.5165, lng: 24.0178}
+          {name: "Lighthouse area", desc: "An iconic Egyptian-style lighthouse. <strong>Walk out along the seawall for incredible panoramic views of the sea and the Old Town.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Chania+Lighthouse", lat: 35.5190, lng: 24.0172}, 
+          {name: "Old Town Chania", desc: "A maze of historic alleyways packed with artisan shops. <strong>Wander through the jasmine-scented streets and browse local boutiques.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Old+Town+Chania", lat: 35.5165, lng: 24.0178}
       ],
       dinner: "Tamam again or seafood in the harbor area",
       map: "https://www.google.com/maps/dir/Casa+Delfino+Hotel+%26+Spa/Old+Venetian+Harbor+Chania/Faross+Chania+Old+Venetian+Harbour/"
@@ -138,8 +138,8 @@ const tripData = {
       travel: "Private Driver Tour",
       plan: ["Olive oil tasting", "Winery visit", "Village lunch", "No lamb"],
       stops: [
-          {name: "Chania wine region", desc: "Rolling hills dotted with ancient olive groves and boutique family-run vineyards.", link: "https://www.google.com/maps/search/?api=1&query=Chania+Crete+winery", lat: 35.4081, lng: 24.2001}, 
-          {name: "Apokoronas villages", desc: "Traditional, untouched mountain villages offering a glimpse into authentic Cretan life.", link: "https://www.google.com/maps/search/?api=1&query=Apokoronas+villages+Crete", lat: 35.4081, lng: 24.2001}
+          {name: "Chania wine region", desc: "Rolling hills dotted with ancient olive groves. <strong>Enjoy private wine tastings at boutique, family-run vineyards.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Chania+Crete+winery", lat: 35.4081, lng: 24.2001}, 
+          {name: "Apokoronas villages", desc: "Traditional, untouched mountain settlements. <strong>Experience authentic Cretan life and sit down for a massive local village lunch.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Apokoronas+villages+Crete", lat: 35.4081, lng: 24.2001}
       ],
       dinner: "Flexible",
       map: "https://www.google.com/maps/search/?api=1&query=Chania+Crete+winery"
@@ -151,7 +151,7 @@ const tripData = {
       travel: "KTEL public bus from Chania to Falassarna Beach",
       plan: ["More scenery, less rushing", "Good day for photos and easy lunch"],
       stops: [
-          {name: "Falassarna Beach or countryside villages", desc: "A massive, pristine sandy beach known for incredible sunsets and crystal clear water.", link: "https://www.google.com/maps/search/?api=1&query=Falassarna+Beach+Crete", lat: 35.4920, lng: 23.5794}
+          {name: "Falassarna Beach or countryside villages", desc: "A massive, pristine sandy beach. <strong>Relax by the crystal-clear water and grab an easy, slow lunch by the sea.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Falassarna+Beach+Crete", lat: 35.4920, lng: 23.5794}
       ],
       dinner: "Flexible",
       map: "https://www.google.com/maps/dir/Casa+Delfino+Hotel+%26+Spa/Falassarna+Beach/Casa+Delfino+Hotel+%26+Spa/"
@@ -163,9 +163,9 @@ const tripData = {
       travel: "KTEL Bus to Kissamos Port, then Boat Cruise",
       plan: ["Casa Delfino → Kissamos Port → Gramvousa Island → Balos Lagoon → Return to Chania"],
       stops: [
-          {name: "Kissamos Port", desc: "The departure point for your cruise, located on the rugged northwest coast of Crete.", link: "https://www.google.com/maps/search/?api=1&query=Kissamos+Port+Crete", lat: 35.5186, lng: 23.6366}, 
-          {name: "Gramvousa Island", desc: "An uninhabited island featuring a striking Venetian fortress and a famous shipwreck.", link: "https://www.google.com/maps/search/?api=1&query=Gramvousa+Island+Crete", lat: 35.6083, lng: 23.5786},
-          {name: "Balos Lagoon", desc: "One of Greece's most famous beaches, featuring shallow, warm, spectacularly turquoise water.", link: "https://www.google.com/maps/search/?api=1&query=Balos+Lagoon+Crete", lat: 35.5815, lng: 23.5908}
+          {name: "Kissamos Port", desc: "The rugged northwest port of Crete. <strong>Board your morning boat and set sail for the lagoon.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Kissamos+Port+Crete", lat: 35.5186, lng: 23.6366}, 
+          {name: "Gramvousa Island", desc: "An uninhabited island featuring a striking Venetian fortress. <strong>Hike up to the castle ruins or swim near the famous shipwreck.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Gramvousa+Island+Crete", lat: 35.6083, lng: 23.5786},
+          {name: "Balos Lagoon", desc: "One of Greece's most famous beaches. <strong>Wade in the spectacular, warm turquoise water and relax on the pink-tinged sand.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Balos+Lagoon+Crete", lat: 35.5815, lng: 23.5908}
       ],
       dinner: "Flexible dinner in Chania Harbor after the full-day cruise",
       map: "https://www.google.com/maps/dir/Casa+Delfino+Hotel+%26+Spa/Kissamos+Port/"
@@ -177,7 +177,7 @@ const tripData = {
       travel: "None",
       plan: ["Sleep in", "Repeat favorite neighborhood or harbor walk", "Leave this open on purpose"],
       stops: [
-          {name: "Nea Chora Beach / waterfront lunch (optional)", desc: "A laid-back, sandy beach just a short walk from Chania's center, famous for its fish tavernas.", link: "https://www.google.com/maps/search/?api=1&query=Nea+Chora+Beach+Chania", lat: 35.5168, lng: 24.0044}
+          {name: "Nea Chora Beach / waterfront lunch (optional)", desc: "A laid-back, sandy beach just a short walk from Chania's center. <strong>Grab a table at a waterfront fish taverna for a lazy lunch.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Nea+Chora+Beach+Chania", lat: 35.5168, lng: 24.0044}
       ],
       dinner: "Flexible",
       map: "https://www.google.com/maps/search/?api=1&query=Nea+Chora+Beach+Chania"
@@ -189,8 +189,8 @@ const tripData = {
       travel: "Fly or Ferry. Port/Airport to Astra Suites via pre-booked hotel transfer",
       plan: ["Travel Chania to Santorini by best available flight or ferry", "Check in and settle into Imerovigli", "Walk the caldera path toward Fira"],
       stops: [
-          {name: "Imerovigli", desc: "The highest, quietest, and most romantic village on the caldera, offering the best sunset views in Santorini.", link: "https://www.google.com/maps/search/?api=1&query=Imerovigli+Santorini", lat: 36.4346, lng: 25.4208}, 
-          {name: "Fira walk", desc: "The spectacular cliffside path connecting the villages, featuring breathtaking views of the volcano.", link: "https://www.google.com/maps/search/?api=1&query=Fira+Santorini", lat: 36.4216, lng: 25.4290}
+          {name: "Imerovigli", desc: "The highest and most romantic village on the caldera. <strong>Check into your hotel, settle in, and soak up the absolute best views in Santorini.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Imerovigli+Santorini", lat: 36.4346, lng: 25.4208}, 
+          {name: "Fira walk", desc: "The spectacular cliffside path connecting the villages. <strong>Take a breathtaking, highly photogenic walk along the edge of the volcano.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Fira+Santorini", lat: 36.4216, lng: 25.4290}
       ],
       dinner: {name: "Anogi", link: "https://www.google.com/maps/search/?api=1&query=Anogi+Restaurant+Imerovigli+Santorini"},
       map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Fira+Santorini/"
@@ -202,7 +202,7 @@ const tripData = {
       travel: "Walking",
       plan: ["Astra Suites → Skaros Rock viewpoint → hotel downtime → sunset dinner"],
       stops: [
-          {name: "Skaros Rock", desc: "A dramatic rocky headland jutting into the caldera that was once the medieval capital of the island.", link: "https://www.google.com/maps/search/?api=1&query=Skaros+Rock+Santorini", lat: 36.4326, lng: 25.4182}
+          {name: "Skaros Rock", desc: "A dramatic rocky headland jutting into the caldera. <strong>Hike out to this medieval capital ruin for an incredible panoramic viewpoint.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Skaros+Rock+Santorini", lat: 36.4326, lng: 25.4182}
       ],
       dinner: {name: "Sunset dinner at The Athenian House", link: "https://www.google.com/maps/search/?api=1&query=The+Athenian+House+Imerovigli+Santorini"},
       map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Skaros+Rock+Santorini/Astra+Suites+Santorini/"
@@ -214,10 +214,10 @@ const tripData = {
       travel: "Hire a private driver/taxi for a half-day",
       plan: ["Astra Suites → Pyrgos → Exo Gonia (Lunch at Metaxi Mas) → Red Beach → Catamaran Sunset Cruise"],
       stops: [
-          {name: "Pyrgos", desc: "The highest village in Santorini, a peaceful, less-touristy medieval settlement with panoramic island views.", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", lat: 36.3833, lng: 25.4500}, 
-          {name: "Exo Gonia", desc: "A quiet, traditional village home to classic Cycladic churches and the famous Metaxi Mas tavern.", link: "https://www.google.com/maps/search/?api=1&query=Exo+Gonia+Santorini", lat: 36.3888, lng: 25.4616}, 
-          {name: "Red Beach", desc: "A completely unique beach surrounded by towering, rust-red volcanic cliffs dropping into the sea.", link: "https://www.google.com/maps/search/?api=1&query=Red+Beach+Santorini", lat: 36.3475, lng: 25.3946},
-          {name: "Vlychada Marina (Cruise Departure)", desc: "The southern port surrounded by dramatic pumice stone cliffs where you'll board your catamaran.", link: "https://www.google.com/maps/search/?api=1&query=Vlychada+Marina+Santorini", lat: 36.3385, lng: 25.4335}
+          {name: "Pyrgos", desc: "The highest village in Santorini. <strong>Explore this peaceful, less-touristy medieval settlement and climb to the top for 360-degree island views.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", lat: 36.3833, lng: 25.4500}, 
+          {name: "Exo Gonia", desc: "A quiet, traditional village home to classic Cycladic churches. <strong>Sit down for an unforgettable, authentic lunch at the famous Metaxi Mas tavern.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Exo+Gonia+Santorini", lat: 36.3888, lng: 25.4616}, 
+          {name: "Red Beach", desc: "A completely unique beach surrounded by rust-red volcanic cliffs. <strong>Grab a drink by the water and snap photos of the dramatic landscape before your next stop.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Red+Beach+Santorini", lat: 36.3475, lng: 25.3946},
+          {name: "Vlychada Marina (Cruise Departure)", desc: "The southern port surrounded by dramatic pumice stone cliffs. <strong>Board your luxury catamaran for an unforgettable sunset cruise and BBQ dinner.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Vlychada+Marina+Santorini", lat: 36.3385, lng: 25.4335}
       ],
       dinner: {name: "BBQ Dinner onboard Catamaran", link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"},
       map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Red+Beach+Santorini/Vlychada+Marina+Santorini/"

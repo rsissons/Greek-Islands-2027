@@ -668,6 +668,16 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.hamburger.active span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
  
  / *   M a p s   a n d   T h u m b s   * /  
  . d a y - m a p   {   h e i g h t :   3 0 0 p x ;   w i d t h :   1 0 0 % ;   m a r g i n - t o p :   1 5 p x ;   b o r d e r - r a d i u s :   1 2 p x ;   z - i n d e x :   1 ;   }  

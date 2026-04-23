@@ -70,15 +70,15 @@ const tripData = {
       title: "Arrive in Athens",
       stay: "COCO-MAT Athens BC",
       travel: "Airport to hotel via Athens Metro Line 3 or pre-booked taxi",
-      plan: ["Arrive in Athens", "Check in and keep the day light", "Walk Plaka and Anafiotika", "Early dinner and early night"],
+      plan: ["Arrive in Athens", "Check in and relax", "Walk the Grand Promenade", "Rooftop Acropolis dinner"],
       stops: [
-          {name: "Plaka", desc: "The oldest and most picturesque neighborhood in Athens. <strong>Wander the historic, narrow streets and browse the local artisan shops.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Plaka+Athens", lat: 37.9729, lng: 23.7281}, 
-          {name: "Anafiotika", desc: "A tiny, scenic village oasis clinging to the Acropolis hill. <strong>Get lost in the maze of whitewashed, Cycladic-style pathways.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Anafiotika+Athens", lat: 37.9723, lng: 23.7275}
+          {name: "Dionysiou Areopagitou Promenade", desc: "A gorgeous, wide, pedestrian-only walkway looping around the base of the Acropolis. <strong>Enjoy a flat, relaxing sunset stroll listening to local street musicians.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Dionysiou+Areopagitou", lat: 37.9701, lng: 23.7252}, 
+          {name: "Thissio Neighborhood", desc: "A lively, upscale neighborhood at the end of the promenade. <strong>Browse the evening artisan stalls and find a perfect rooftop table.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Thissio+Athens", lat: 37.9760, lng: 23.7214}
       ],
-      dinner: {name: "Karamanlidika by Fanis (Skip lamb dishes)", link: "https://www.google.com/maps/search/?api=1&query=Karamanlidika+by+Fanis+Athens"},
+      dinner: {name: "Kuzina (Modern Greek & Acropolis Views)", link: "https://www.google.com/maps/search/?api=1&query=Kuzina+Restaurant+Athens"},
       maps: [
           {name: "Airport to Hotel Directions", link: "https://www.google.com/maps/dir/Athens+International+Airport/COCO-MAT+Athens+BC/"},
-          {name: "Walking Directions (Plaka & Anafiotika)", link: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Plaka+Athens/Anafiotika+Athens/"}
+          {name: "Walking Directions (The Grand Promenade)", link: "https://www.google.com/maps/dir/COCO-MAT+Athens+BC/Dionysiou+Areopagitou/Kuzina+Athens/"}
       ]
     },
     {

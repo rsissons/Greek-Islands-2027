@@ -86,6 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div class="detail-row"><strong>Plan:</strong></div>
                         <ul class="detail-list">${planList}</ul>
                         ${stopsList}
+                        ${day.tour ? `<div class="detail-row"><strong>Tour:</strong> <a href="${day.tour.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">${day.tour.name}</a></div>` : ''}
                         ${day.dinner !== "None" ? `<div class="detail-row"><strong>Dinner:</strong> ${typeof day.dinner === 'object' ? `<a href="${day.dinner.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">${day.dinner.name}</a>` : day.dinner}</div>` : ''}
                         <a href="${day.map}" target="_blank" class="map-link">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg>

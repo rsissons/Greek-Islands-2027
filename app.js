@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             // Build lists
             const planList = day.plan.map(p => `<li>${p}</li>`).join("");
-            const stopsList = day.stops.length > 0 ? `<div class="detail-row"><strong>Stops:</strong></div><ul class="detail-list">${day.stops.map(s => `<li>${s}</li>`).join("")}</ul>` : "";
+            const stopsList = day.stops.length > 0 ? `<div class="detail-row"><strong>Stops:</strong></div><ul class="detail-list">${day.stops.map(s => `<li>${typeof s === 'object' ? `<a href="${s.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">${s.name}</a>` : s}</li>`).join("")}</ul>` : "";
             
             item.innerHTML = `
                 <div class="timeline-dot"></div>

@@ -52,6 +52,11 @@ const tripData = {
       name: "Crete driver wine and olive oil tour",
       desc: "Private driver, hotel pickup, olive oil tasting, winery stop, village lunch (no lamb).",
       link: "https://www.viator.com/en-GB/tours/Crete/Chania-Tasting-Tour-Bakery-Olive-Oil-Honey-and-Cheese/d960-274289P16"
+    },
+    {
+      name: "Santorini Luxury Catamaran Sunset Cruise",
+      desc: "Small-group catamaran sailing with caldera views, swimming, and an onboard BBQ dinner.",
+      link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"
     }
   ],
   days: [
@@ -202,14 +207,15 @@ const tripData = {
       title: "Villages and Real Santorini",
       stay: "Astra Suites",
       travel: "Hire a private driver/taxi for a half-day or use KTEL buses via Fira",
-      plan: ["Astra Suites → Pyrgos → Exo Gonia → Metaxi Mas → optional Akrotiri → Astra Suites"],
+      plan: ["Astra Suites → Pyrgos → Exo Gonia (Lunch at Metaxi Mas) → Akrotiri → Catamaran Sunset Cruise"],
       stops: [
           {name: "Pyrgos", link: "https://www.google.com/maps/search/?api=1&query=Pyrgos+Kallistis+Santorini", lat: 36.3833, lng: 25.4500}, 
           {name: "Exo Gonia", link: "https://www.google.com/maps/search/?api=1&query=Exo+Gonia+Santorini", lat: 36.3888, lng: 25.4616}, 
-          {name: "Akrotiri Archaeological Site", link: "https://www.google.com/maps/search/?api=1&query=Akrotiri+Archaeological+Site", lat: 36.3514, lng: 25.4036}
+          {name: "Akrotiri Archaeological Site", link: "https://www.google.com/maps/search/?api=1&query=Akrotiri+Archaeological+Site", lat: 36.3514, lng: 25.4036},
+          {name: "Vlychada Marina (Cruise Departure)", link: "https://www.google.com/maps/search/?api=1&query=Vlychada+Marina+Santorini", lat: 36.3385, lng: 25.4335}
       ],
-      dinner: {name: "Metaxi Mas", link: "https://www.google.com/maps/search/?api=1&query=Metaxi+Mas+Exo+Gonia+Santorini"},
-      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Akrotiri+Archaeological+Site/Astra+Suites+Santorini/"
+      dinner: {name: "BBQ Dinner onboard Catamaran", link: "https://www.viator.com/tours/Santorini/Santorini-Catamaran-Cruise-with-BBQ-and-Drinks/d959-19500P1"},
+      map: "https://www.google.com/maps/dir/Astra+Suites+Santorini/Pyrgos+Kallistis/Exo+Gonia+Santorini/Metaxi+Mas+Santorini/Akrotiri+Archaeological+Site/Vlychada+Marina+Santorini/"
     },
     {
       day: 13,

@@ -77,7 +77,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="timeline-preview">${day.stay !== "None" ? `Stay: ${day.stay} | ` : ''}Travel: ${day.travel}</div>
                     
                     <div class="timeline-details">
-                        ${day.stay !== "None" ? `<div class="detail-row"><strong>Hotel:</strong> ${day.stay}</div>` : ''}
+                        ${(() => {
+                            if (day.stay === "None") return '';
+                            const hotel = tripData.hotels.find(h => h.name === day.stay);
+                            const hotelLink = hotel ? `<a href="${hotel.link}" target="_blank" style="color: var(--clr-light-blue); text-decoration: underline;">${day.stay}</a>` : day.stay;
+                            return `<div class="detail-row"><strong>Hotel:</strong> ${hotelLink}</div>`;
+                        })()}
                         <div class="detail-row"><strong>Plan:</strong></div>
                         <ul class="detail-list">${planList}</ul>
                         ${stopsList}

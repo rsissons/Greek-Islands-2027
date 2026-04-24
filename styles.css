@@ -245,6 +245,43 @@ header {
     justify-content: center;
 }
 
+/* ----- OPTIONS TABS ----- */
+.options-toggle-section {
+    background-color: var(--clr-stone);
+    padding: var(--space-md) 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.options-tabs {
+    display: flex;
+    justify-content: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    background: transparent;
+    border: 2px solid var(--clr-light-blue);
+    color: var(--clr-light-blue);
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.tab-btn:hover {
+    background: rgba(43, 168, 224, 0.1);
+}
+
+.tab-btn.active {
+    background: var(--clr-light-blue);
+    color: var(--clr-white);
+    box-shadow: var(--shadow-soft);
+}
+
 /* ----- BUTTONS ----- */
 .btn {
     display: inline-block;

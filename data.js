@@ -292,7 +292,7 @@ const option2 = {
     {
       name: "Naxos Organic Farm-to-Table Experience",
       desc: "Private tour of an authentic mountain farm, cooking class, and wine tasting.",
-      link: "https://www.viator.com/Naxos-tours/Food-Tours/d4850-g6-c80"
+      link: "https://www.getyourguide.com/s?q=Naxos+Food+Tour"
     },
     {
       name: "Mykonos Private Yacht to Delos & Rhenia",
@@ -369,7 +369,7 @@ const option2 = {
           {name: "Chalki", desc: "The old capital of Naxos with beautiful Venetian architecture. <strong>Taste the local Kitron liqueur at the Vallindras distillery.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Chalki+Naxos", lat: 37.0628, lng: 25.4824},
           {name: "Apeiranthos", desc: "The 'marble village' built high in the mountains. <strong>Wander the marble-paved alleys and enjoy incredible mountain views.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Apeiranthos+Naxos", lat: 37.0716, lng: 25.5204}
       ],
-      tour: {name: "Naxos Organic Farm-to-Table Experience", link: "https://www.viator.com/Naxos-tours/Food-Tours/d4850-g6-c80"},
+      tour: {name: "Naxos Organic Farm-to-Table Experience", link: "https://www.getyourguide.com/s?q=Naxos+Food+Tour"},
       dinner: "Late afternoon heavy feast at the farm",
       map: "https://www.google.com/maps/dir/18+Grapes+Hotel+Naxos/Chalki+Naxos/Apeiranthos+Naxos/"
     },
@@ -528,9 +528,9 @@ const option3 = {
   ],
   tours: [
     {
-      name: "Private Milos Yacht Tour (Kleftiko & Polyaigos)",
-      desc: "A completely private, luxurious boat charter exploring the jaw-dropping pirate caves of Kleftiko.",
-      link: "https://www.viator.com/Milos-tours/Cruises-Sailing-and-Water-Tours/d23253-g3"
+      name: "Milos Catamaran Cruise (Kleftiko & Polyaigos)",
+      desc: "A luxurious boat charter exploring the jaw-dropping pirate caves of Kleftiko.",
+      link: "https://www.getyourguide.com/s?q=Milos+Kleftiko+Cruise"
     },
     {
       name: "Santorini Luxury Catamaran Sunset Cruise",
@@ -620,7 +620,7 @@ const option3 = {
           {name: "Kleftiko", desc: "A massive complex of towering white rock formations and sea caves accessible only by boat. <strong>Swim in the crystal-clear, electric blue waters.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Kleftiko+Milos", lat: 36.6433, lng: 24.3364},
           {name: "Polyaigos Island", desc: "The largest uninhabited island in Greece, famous for its 'Blue Lagoon'. <strong>Enjoy a private onboard lunch in utter isolation.</strong>", link: "https://www.google.com/maps/search/?api=1&query=Polyaigos", lat: 36.7644, lng: 24.6366}
       ],
-      tour: {name: "Private Milos Yacht Tour (Kleftiko & Polyaigos)", link: "https://www.viator.com/Milos-tours/Cruises-Sailing-and-Water-Tours/d23253-g3"},
+      tour: {name: "Milos Catamaran Cruise (Kleftiko & Polyaigos)", link: "https://www.getyourguide.com/s?q=Milos+Kleftiko+Cruise"},
       dinner: {name: "Medusa (Mandrakia)", link: "https://www.google.com/maps/search/?api=1&query=Medusa+Milos"},
       map: "https://www.google.com/maps/dir/Domes+White+Coast/Adamas+Port/"
     },
@@ -698,7 +698,7 @@ const option3 = {
       title: "Ultimate Relaxation",
       stay: "Astra Suites",
       travel: "Walking",
-      plan: ["No schedule", "Spa treatments at the hotel", "Final romantic caldera dinner"],
+      plan: ["No schedule", "Relax by the infinity pool", "Final romantic caldera dinner"],
       stops: [
           {name: "Astra Suites Infinity Pool", desc: "The ultimate luxury perk. <strong>Order room service, relax by the pool, and soak up the views one last time without lifting a finger.</strong>", link: "https://www.astrasuites.com/", lat: 36.4346, lng: 25.4208}
       ],

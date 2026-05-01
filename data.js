@@ -6,6 +6,37 @@ const option1 = {
     dietary: "No lamb",
     locations: ["Athens", "Chania (Crete)", "Santorini"]
   },
+  budget: {
+    total: "const option1 = {
+  theme: {
+    duration: "15 Days",
+    dates: "April 2027",
+    vibe: "Mix of relaxing and exploring",
+    dietary: "No lamb",
+    locations: ["Athens", "Chania (Crete)", "Santorini"]
+  }2,500 - const option1 = {
+  theme: {
+    duration: "15 Days",
+    dates: "April 2027",
+    vibe: "Mix of relaxing and exploring",
+    dietary: "No lamb",
+    locations: ["Athens", "Chania (Crete)", "Santorini"]
+  }4,500",
+    breakdown: [
+      { category: "Flights (International)", estimate: "$2,500 - $3,000" },
+      { category: "Hotels (14 Nights)", estimate: "$6,500 - $7,500" },
+      { category: "Dining & Drinks", estimate: "$2,000 - $2,500" },
+      { category: "Tours & Excursions", estimate: "const option1 = {
+  theme: {
+    duration: "15 Days",
+    dates: "April 2027",
+    vibe: "Mix of relaxing and exploring",
+    dietary: "No lamb",
+    locations: ["Athens", "Chania (Crete)", "Santorini"]
+  },000" },
+      { category: "Local Transport", estimate: "$500" }
+    ]
+  },
   hotels: [
     {
       name: "COCO-MAT Athens BC",
@@ -263,6 +294,44 @@ const option2 = {
     dietary: "No lamb",
     locations: ["Athens", "Naxos", "Mykonos"]
   },
+  budget: {
+    total: "const option2 = {
+  theme: {
+    duration: "14 Days",
+    dates: "April 2027",
+    vibe: "Authentic Charm & High-Octane Glamour",
+    dietary: "No lamb",
+    locations: ["Athens", "Naxos", "Mykonos"]
+  }5,000 - const option2 = {
+  theme: {
+    duration: "14 Days",
+    dates: "April 2027",
+    vibe: "Authentic Charm & High-Octane Glamour",
+    dietary: "No lamb",
+    locations: ["Athens", "Naxos", "Mykonos"]
+  }8,000",
+    breakdown: [
+      { category: "Flights (International)", estimate: "$2,500 - $3,000" },
+      { category: "Hotels (14 Nights)", estimate: "$8,000 - const option2 = {
+  theme: {
+    duration: "14 Days",
+    dates: "April 2027",
+    vibe: "Authentic Charm & High-Octane Glamour",
+    dietary: "No lamb",
+    locations: ["Athens", "Naxos", "Mykonos"]
+  }0,000" },
+      { category: "Dining & Drinks", estimate: "$2,500 - $3,000" },
+      { category: "Tours & Excursions", estimate: "const option2 = {
+  theme: {
+    duration: "14 Days",
+    dates: "April 2027",
+    vibe: "Authentic Charm & High-Octane Glamour",
+    dietary: "No lamb",
+    locations: ["Athens", "Naxos", "Mykonos"]
+  },500" },
+      { category: "Local Transport", estimate: "$500" }
+    ]
+  },
   hotels: [
     {
       name: "COCO-MAT Athens BC",
@@ -500,6 +569,37 @@ const option3 = {
     vibe: "Hidden Gems & Dramatic Volcanic Coastlines",
     dietary: "No lamb",
     locations: ["Athens", "Milos", "Santorini"]
+  },
+  budget: {
+    total: "const option3 = {
+  theme: {
+    duration: "14 Days",
+    dates: "April 2027",
+    vibe: "Hidden Gems & Dramatic Volcanic Coastlines",
+    dietary: "No lamb",
+    locations: ["Athens", "Milos", "Santorini"]
+  }3,500 - const option3 = {
+  theme: {
+    duration: "14 Days",
+    dates: "April 2027",
+    vibe: "Hidden Gems & Dramatic Volcanic Coastlines",
+    dietary: "No lamb",
+    locations: ["Athens", "Milos", "Santorini"]
+  }6,000",
+    breakdown: [
+      { category: "Flights (International)", estimate: "$2,500 - $3,000" },
+      { category: "Hotels (14 Nights)", estimate: "$7,000 - $9,000" },
+      { category: "Dining & Drinks", estimate: "$2,000 - $2,500" },
+      { category: "Tours & Excursions", estimate: "const option3 = {
+  theme: {
+    duration: "14 Days",
+    dates: "April 2027",
+    vibe: "Hidden Gems & Dramatic Volcanic Coastlines",
+    dietary: "No lamb",
+    locations: ["Athens", "Milos", "Santorini"]
+  },500" },
+      { category: "Local Transport", estimate: "$500" }
+    ]
   },
   hotels: [
     {

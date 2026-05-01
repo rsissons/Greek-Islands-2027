@@ -22,6 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const summaryContainer = document.getElementById("summary-container");
+    const budgetTotalContainer = document.getElementById("budget-total-container");
+    const budgetBreakdownContainer = document.getElementById("budget-breakdown-container");
     const timelineContainer = document.getElementById("timeline-container");
     const hotelsContainer = document.getElementById("hotels-container");
     const diningContainer = document.getElementById("dining-container");
@@ -47,6 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Clear containers
         if(summaryContainer) summaryContainer.innerHTML = "";
+        if(budgetTotalContainer) budgetTotalContainer.innerHTML = "";
+        if(budgetBreakdownContainer) budgetBreakdownContainer.innerHTML = "";
         if(timelineContainer) timelineContainer.innerHTML = "";
         if(hotelsContainer) hotelsContainer.innerHTML = "";
         if(diningContainer) diningContainer.innerHTML = "";
@@ -69,6 +73,24 @@ document.addEventListener("DOMContentLoaded", () => {
                     <p>${item.value}</p>
                 `;
                 summaryContainer.appendChild(card);
+            });
+        }
+
+        // 1.5 Render Budget
+        if(data.budget && budgetTotalContainer && budgetBreakdownContainer) {
+            budgetTotalContainer.innerHTML = `
+                <div style="font-size: 1.2em; font-weight: 500; color: var(--clr-text-light); margin-bottom: 0.5rem;">Estimated Total</div>
+                <div style="font-size: 2.5em; font-weight: 800; color: var(--clr-accent);">${data.budget.total}</div>
+            `;
+            
+            data.budget.breakdown.forEach(item => {
+                const row = document.createElement("div");
+                row.className = "list-item";
+                row.innerHTML = `
+                    <div class="list-item-title">${item.category}</div>
+                    <div style="font-weight: 600; font-size: 1.1em; color: var(--clr-light-blue);">${item.estimate}</div>
+                `;
+                budgetBreakdownContainer.appendChild(row);
             });
         }
 

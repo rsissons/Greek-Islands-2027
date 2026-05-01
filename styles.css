@@ -620,6 +620,40 @@ header {
     color: var(--clr-text-main);
 }
 
+.summary-card p {
+    font-size: 1.1rem;
+    color: var(--clr-text-light);
+}
+
+/* ----- BUDGET ----- */
+.budget-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+}
+
+.budget-total {
+    text-align: center;
+    padding: var(--space-xl);
+    background: var(--clr-white);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-soft);
+    border-left: 4px solid var(--clr-accent);
+}
+
+@media (min-width: 768px) {
+    .budget-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .budget-total {
+        flex: 1;
+    }
+    #budget-breakdown-container {
+        flex: 2;
+    }
+}
+
 .list-item-loc {
     font-size: 0.85rem;
     color: var(--clr-text-muted);

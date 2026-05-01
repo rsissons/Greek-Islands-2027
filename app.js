@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const summaryContainer = document.getElementById("summary-container");
     const timelineContainer = document.getElementById("timeline-container");
-    const hotelsContainer = document.getElementById("hotels-grid");
+    const hotelsContainer = document.getElementById("hotels-container");
     const diningContainer = document.getElementById("dining-container");
     const toursContainer = document.getElementById("tours-container");
     const heroSubtitle = document.getElementById("hero-subtitle");
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Update Text
         if (optionKey === 'option1') {
             if(heroSubtitle) heroSubtitle.innerHTML = "Athens • Chania(Crete) • Santorini";
-            if(tripOverviewDesc) tripOverviewDesc.innerHTML = "This Classic Aegean itinerary is designed for four adults traveling in April. The trip starts with three nights in Athens for history and food, then shifts to six nights in Chania, Crete for depth, scenery, and a private wine/olive oil day, and finishes with three nights in Santorini for caldera views. The return includes one final night at the Athens airport hotel.";
+            if(tripOverviewDesc) tripOverviewDesc.innerHTML = "This Classic Aegean itinerary is designed for two adults traveling in April with a mix of relaxing and exploring. The trip starts with four nights in Athens for history, neighborhoods, and food, then shifts to six nights in Chania, Crete for depth, scenery, and a private wine and olive oil day, and finishes with three nights in Santorini for caldera views. The return includes one final night at the Athens airport hotel.";
         } else if (optionKey === 'option2') {
             if(heroSubtitle) heroSubtitle.innerHTML = "Athens • Naxos • Mykonos";
             if(tripOverviewDesc) tripOverviewDesc.innerHTML = "This Cycladic Explorer itinerary contrasts the authentic charm and incredible food of Naxos with the high-octane glamour of Mykonos. You'll start with three nights in Athens, explore the sweeping beaches and mountain villages of Naxos for five nights, and then experience ultra-premium beach clubs and yacht tours in Mykonos for four nights.";
